@@ -1,12 +1,13 @@
 import React from 'react';
-import { Login } from './components/Login';
+import { SpecialLogin } from '../components/SpecialLogin';
+import { Register } from './components/Register';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Login Home Page</h1>
-      <Login />
+      <SpecialLogin />
+      <Register />
     </div>
   );
 }
