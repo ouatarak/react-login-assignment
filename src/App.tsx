@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpecialLogin } from '../components/SpecialLogin';
+import SpecialLogin from './components/SpecialLogin';
 import { Register } from './components/Register';
 import './App.css';
 
